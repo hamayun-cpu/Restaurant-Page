@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: center center;
 }
+
 .back-color {
   background-color: rgba(34, 29, 68, 0.486);
 }
@@ -25,4 +26,11 @@
   color: white;
   font-size: 23px;
   font-family: "Inconsolata", monospace;
+}
+.pt-8 {
+  padding-top: 90px;
+}
+
+.dis-none {
+  display: none !important;
 }
