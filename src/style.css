@@ -42,3 +42,24 @@
 .mt-10p {
   margin-top: 10px;
 }
+
+.mt-10p {
+  margin-top: 10px;
+}
+
+.h-250p {
+  height: 250px;
+}
+
+.menu-bg-pic {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bac-pos-center {
+  background-position: center center;
+}
+
+.bac-pos-bottom {
+  background-position: center bottom;
+}
