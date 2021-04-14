@@ -34,3 +34,11 @@
 .dis-none {
   display: none !important;
 }
+
+.col-white {
+  color: white;
+}
+
+.mt-10p {
+  margin-top: 10px;
+}
