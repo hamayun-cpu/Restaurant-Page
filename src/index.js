@@ -18,40 +18,40 @@ const handle = document.getElementById('handles-container');
 createMenu('bg-col-container');
 const menuContainer = document.getElementById('menu-container');
 
-function displayContact() {
+const displayContact = () => {
   contactHeading.classList.remove('dis-none');
   contactMedia.classList.remove('dis-none');
   contactNumber.classList.remove('dis-none');
   handle.classList.remove('dis-none');
-}
+};
 
-function hideContact() {
+const hideContact = () => {
   if (!contactHeading.classList.contains('dis-none')) {
     contactHeading.classList.add('dis-none');
     contactMedia.classList.add('dis-none');
     contactNumber.classList.add('dis-none');
     handle.classList.add('dis-none');
   }
-}
+};
 
-function hideHomeContact() {
+const hideHomeContact = () => {
   hideContact();
   if (!heading.classList.contains('dis-none')) {
     heading.classList.add('dis-none');
     para.classList.add('dis-none');
     btun.classList.add('dis-none');
   }
-}
+};
 
-function showMenu() {
+const showMenu = () => {
   menuContainer.classList.remove('dis-none');
-}
+};
 
-function hideMenu() {
+const hideMenu = () => {
   if (!menuContainer.classList.contains('dis-none')) {
     menuContainer.classList.add('dis-none');
   }
-}
+};
 
 contact.addEventListener('click', () => {
   heading.classList.add('dis-none');
