@@ -27,6 +27,7 @@
   font-size: 23px;
   font-family: "Inconsolata", monospace;
 }
+
 .pt-8 {
   padding-top: 90px;
 }
@@ -37,10 +38,6 @@
 
 .col-white {
   color: white;
-}
-
-.mt-10p {
-  margin-top: 10px;
 }
 
 .mt-10p {
