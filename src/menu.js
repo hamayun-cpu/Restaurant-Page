@@ -10,14 +10,14 @@ export default function createMenu(content) {
 
   const col11 = document.createElement('div');
   col11.id = 'c-1';
-  col11.className = 'col-sm-4 col-white menu-bg-pic h-250p bac-pos-bottom p-0';
+  col11.className = 'col-sm-4 col-white menu-bg-pic h-250p bac-pos-center p-0';
   col11.style.backgroundImage = "url('/src/img/menu1.jpg')";
   const div1 = document.createElement('div');
   div1.className = 'col-white h-100 w-100 bg-color-menu';
   div1.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '1'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '1'>
+      <div class = "lrg-font bold-font m-auto">Salad Bun</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$5</div>
     </div>
   `;
   col11.appendChild(div1);
@@ -29,9 +29,9 @@ export default function createMenu(content) {
   const div2 = document.createElement('div');
   div2.className = 'col-white h-100 w-100 bg-color-menu';
   div2.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '2'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '2'>
+      <div class = "lrg-font bold-font m-auto">Deviled eggs</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$3</div>
     </div>
   `;
   col12.appendChild(div2);
@@ -43,9 +43,9 @@ export default function createMenu(content) {
   const div3 = document.createElement('div');
   div3.className = 'col-white h-100 w-100 bg-color-menu';
   div3.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '3'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '3'>
+      <div class = "lrg-font bold-font m-auto">Beef Burger</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$9</div>
     </div>
   `;
   col13.appendChild(div3);
@@ -62,9 +62,9 @@ export default function createMenu(content) {
   const div4 = document.createElement('div');
   div4.className = 'col-white h-100 w-100 bg-color-menu';
   div4.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '4'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '4'>
+      <div class = "lrg-font bold-font m-auto">Spanish Salad</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$5</div>
     </div>
   `;
   col21.appendChild(div4);
@@ -76,9 +76,9 @@ export default function createMenu(content) {
   const div5 = document.createElement('div');
   div5.className = 'col-white h-100 w-100 bg-color-menu';
   div5.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '5'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '5'>
+      <div class = "lrg-font bold-font m-auto">Mixed fruit</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$7</div>
     </div>
   `;
   col22.appendChild(div5);
@@ -90,9 +90,9 @@ export default function createMenu(content) {
   const div6 = document.createElement('div');
   div6.className = 'col-white h-100 w-100 bg-color-menu';
   div6.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '6'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '6'>
+      <div class = "lrg-font bold-font m-auto">Vegetables</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$3</div>
     </div>
   `;
   col23.appendChild(div6);
@@ -104,14 +104,14 @@ export default function createMenu(content) {
 
   const col31 = document.createElement('div');
   col31.id = 'c-7';
-  col31.className = 'col-sm-4 col-white menu-bg-pic h-250p bac-pos-bottom p-0';
+  col31.className = 'col-sm-4 col-white menu-bg-pic h-250p bac-pos-center p-0';
   col31.style.backgroundImage = "url('/src/img/menu7.jpg')";
   const div7 = document.createElement('div');
   div7.className = 'col-white h-100 w-100 bg-color-menu';
   div7.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '7'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '7'>
+      <div class = "lrg-font bold-font m-auto">Mac burger</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$7</div>
     </div>
   `;
   col31.appendChild(div7);
@@ -123,9 +123,9 @@ export default function createMenu(content) {
   const div8 = document.createElement('div');
   div8.className = 'col-white h-100 w-100 bg-color-menu';
   div8.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '8'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '8'>
+      <div class = "lrg-font bold-font m-auto">Beef Roll</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$4</div>
     </div>
   `;
   col32.appendChild(div8);
@@ -137,9 +137,9 @@ export default function createMenu(content) {
   const div9 = document.createElement('div');
   div9.className = 'col-white h-100 w-100 bg-color-menu';
   div9.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '9'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '9'>
+      <div class = "lrg-font bold-font m-auto">Chicken Burger</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$6</div>
     </div>
   `;
   col33.appendChild(div9);
@@ -151,14 +151,14 @@ export default function createMenu(content) {
 
   const col41 = document.createElement('div');
   col41.id = 'c-10';
-  col41.className = 'col-sm-4 col-white menu-bg-pic h-250p bac-pos-bottom p-0';
+  col41.className = 'col-sm-4 col-white menu-bg-pic h-250p bac-pos-center p-0';
   col41.style.backgroundImage = "url('/src/img/menu10.jpg')";
   const div10 = document.createElement('div');
   div10.className = 'col-white h-100 w-100 bg-color-menu';
   div10.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '10'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '10'>
+      <div class = "lrg-font bold-font m-auto">Meat Salad</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$5</div>
     </div>
   `;
   col41.appendChild(div10);
@@ -170,9 +170,9 @@ export default function createMenu(content) {
   const div11 = document.createElement('div');
   div11.className = 'col-white h-100 w-100 bg-color-menu';
   div11.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '11'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '11'>
+      <div class = "lrg-font bold-font m-auto">Chicken steak</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$10</div>
     </div>
   `;
   col42.appendChild(div11);
@@ -184,9 +184,9 @@ export default function createMenu(content) {
   const div12 = document.createElement('div');
   div12.className = 'col-white h-100 w-100 bg-color-menu';
   div12.innerHTML = `
-    <div class = 'w-50 m-auto dis-none' id = '12'>
-      <div class = "lrg-font bold-font">Salad Bun</div>
-      <div class='ml-5 med-font bold-font'>$5</div>
+    <div class = 'm-auto dis-none' id = '12'>
+      <div class = "lrg-font bold-font m-auto">Garlic Fries</div>
+      <div class='d-flex justify-content-center med-font bold-font'>$2</div>
     </div>
   `;
   col43.appendChild(div12);

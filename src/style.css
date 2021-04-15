@@ -64,6 +64,10 @@
   background-position: center bottom;
 }
 
+.bac-pos-top {
+  background-position: center top;
+}
+
 .bg-color-menu {
   transition: background-color 1s;
 }
@@ -76,6 +80,7 @@
 
 .lrg-font {
   font-size: 40px;
+  white-space: nowrap;
 }
 
 .bold-font {
