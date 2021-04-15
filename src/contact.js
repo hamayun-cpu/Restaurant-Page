@@ -1,4 +1,4 @@
-export default function contact(content) {
+export default (content) => {
   const mainDiv = document.getElementById(content);
 
   const firstChild = document.createElement('div');
@@ -32,4 +32,4 @@ export default function contact(content) {
   mainDiv.appendChild(thirdChild);
   mainDiv.appendChild(fourthChild);
   mainDiv.appendChild(secondChild);
-}
+};
