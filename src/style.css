@@ -63,3 +63,25 @@
 .bac-pos-bottom {
   background-position: center bottom;
 }
+
+.bg-color-menu {
+  transition: background-color 1s;
+}
+
+.bg-color-menu:hover {
+  background-color: rgba(20, 15, 54, 0.61);
+  display: flex;
+  flex-direction: column;
+}
+
+.lrg-font {
+  font-size: 40px;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.med-font {
+  font-size: 25px;
+}

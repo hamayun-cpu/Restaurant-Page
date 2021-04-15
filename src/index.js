@@ -63,17 +63,6 @@ function hideMenu() {
   }
 }
 
-function logMouseOver() {
-  document.getElementById('one').classList.remove('dis-none');
-}
-
-function logMouseOut() {
-  const q = document.getElementById('one');
-  if (! q.classList.contains('dis-none')) {
-    q.classList.add('dis-none');
-  }
-}
-
 contact.addEventListener('click', (e) => {
   heading.classList.add('dis-none');
   para.classList.add('dis-none');
@@ -93,7 +82,21 @@ menu.addEventListener('click', (e) => {
   showMenu();
 });
 
+for (let i = 1; i <=12; i+= 1) {
+  const str = `c-${i}`;
+  const str2 = `${i}`;
 
-const col1 = document.getElementById('c-11');
-col1.addEventListener("mouseover", logMouseOver, false);
-col1.addEventListener("mouseout", logMouseOut, false);
+  const col = document.getElementById(str);
+  const q = document.getElementById(str2);
+
+  col.addEventListener("mouseover", function( event ) {
+    q.classList.remove('dis-none');
+  }, false);
+
+
+  col.addEventListener("mouseout", function( event ) {
+    if (! q.classList.contains('dis-none')) {
+      q.classList.add('dis-none');
+    }
+  }, false);
+}
