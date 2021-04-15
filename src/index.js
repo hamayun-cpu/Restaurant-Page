@@ -1,15 +1,14 @@
-import '@fortawesome/fontawesome-free/js/fontawesome'
-import '@fortawesome/fontawesome-free/js/solid'
-import '@fortawesome/fontawesome-free/js/regular'
-import '@fortawesome/fontawesome-free/js/brands'
-import { library, dom } from '@fortawesome/fontawesome-svg-core'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/brands';
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
-library.add(fas, far, fab) 
-
-dom.i2svg() 
+library.add(fas, far, fab);
+dom.i2svg();
 import css from "./style.css";
 import tabs from './tabs.js'; 
 import pageLoad from './page_load.js'; 
@@ -93,12 +92,12 @@ for (let i = 1; i <=12; i+= 1) {
   const col = document.getElementById(str);
   const q = document.getElementById(str2);
 
-  col.addEventListener("mouseover", function( event ) {
+  col.addEventListener('mouseover', function( event ) {
     q.classList.remove('dis-none');
   }, false);
 
 
-  col.addEventListener("mouseout", function( event ) {
+  col.addEventListener('mouseout', function( event ) {
     if (! q.classList.contains('dis-none')) {
       q.classList.add('dis-none');
     }

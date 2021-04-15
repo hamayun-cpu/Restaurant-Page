@@ -9,7 +9,7 @@ export default function contact(content) {
   const thirdChild = document.createElement('div');
   thirdChild.id = 'number-container';
   thirdChild.className = 'para w-75 mx-auto mt-5 d-flex justify-content-center dis-none';
-  thirdChild.textContent = "+92 (402) 337799";
+  thirdChild.textContent = '+92 (402) 337799';
 
   const fourthChild = document.createElement('div');
   fourthChild.id = 'handles-container';
