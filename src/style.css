@@ -17,7 +17,7 @@
 .heading {
   font-family: "Dancing Script", cursive;
   color: white;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 600;
   opacity: 1;
 }
@@ -58,14 +58,6 @@
 
 .bac-pos-center {
   background-position: center center;
-}
-
-.bac-pos-bottom {
-  background-position: center bottom;
-}
-
-.bac-pos-top {
-  background-position: center top;
 }
 
 .bg-color-menu {

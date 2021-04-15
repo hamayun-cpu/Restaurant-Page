@@ -12,7 +12,11 @@ const pageLoad = (() => {
   const firstChild = document.createElement('div');
   firstChild.id = 'heading-container';
   firstChild.className = 'heading col-white mx-auto w-50 pt-8 d-flex justify-content-center';
-  firstChild.innerHTML = '<i class="fas fa-utensils mr-3 pt-2 mt-10p"></i>Restaurant EatIn';
+  firstChild.innerHTML = `
+    <i class="fas fa-utensils mr-3 pt-2 mt-10p"></i>
+    EatIn <br>
+    Restaurant
+  `;
 
   const secondChild = document.createElement('div');
   secondChild.id = 'para-container';
