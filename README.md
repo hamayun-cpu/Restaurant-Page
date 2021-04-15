@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://hamayun-cpu.github.io/Restaurant-Page/)
 
 ## Getting Started
 
