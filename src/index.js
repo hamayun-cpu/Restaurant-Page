@@ -9,11 +9,12 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 library.add(fas, far, fab);
 dom.i2svg();
-import css from "./style.css";
-import tabs from './tabs.js'; 
-import pageLoad from './page_load.js'; 
-import cont from './contact.js'; 
-import createMenu from './menu.js'
+import _ from "./style.css";
+import d from './tabs'; 
+import e from './page_load'; 
+import cont from './contact'; 
+import createMenu from './menu'
+
 
 const contact = document.getElementById('contactt');
 const home = document.getElementById('homee');
