@@ -15,7 +15,6 @@ const tabs = (() => {
       </div>
     </div>
   </nav>`;
-
 })();
 
 export default tabs;

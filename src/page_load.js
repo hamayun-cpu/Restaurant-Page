@@ -1,5 +1,5 @@
 const pageLoad = (() => {
-  const mainDiv = document.getElementById("content");
+  const mainDiv = document.getElementById('content');
 
   const container = document.createElement('div');
   container.id = 'container';
