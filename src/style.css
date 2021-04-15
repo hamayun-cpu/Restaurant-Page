@@ -82,3 +82,10 @@
 .med-font {
   font-size: 25px;
 }
+
+.book {
+  font-family: "Inconsolata", monospace;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}

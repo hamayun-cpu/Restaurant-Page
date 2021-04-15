@@ -23,8 +23,19 @@ const pageLoad = (() => {
   secondChild.className = 'para w-75 mx-auto mt-5 d-flex justify-content-center';
   secondChild.textContent = "A great restaurant is one that just makes you feel like you're not sure whether you went out or you came home and confuses you. If it can do both of those things at the same time, you're hooked.";
 
+  const thirdChild = document.createElement('div');
+  thirdChild.id = 'para-container';
+  thirdChild.className = 'book w-75 mx-auto mt-5 d-flex justify-content-center';
+  thirdChild.innerHTML = `
+  <div class = 'd-flex flex-column'>
+    <div class = 'mb-2'>Book Your table now</div>
+    <button type="button" class="btn btn-dark w-50 m-auto butn bold-font med-font">Book</button>
+  </div>
+  `;
+
   parentDiv.appendChild(firstChild);
   parentDiv.appendChild(secondChild);
+  parentDiv.appendChild(thirdChild);
   container.appendChild(parentDiv);
   mainDiv.appendChild(container);
 })();
