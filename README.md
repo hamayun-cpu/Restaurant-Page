@@ -2,7 +2,7 @@
 
 # Restaurant-Page
 
-> Project was based on creating a restaurant page using javascript to generate the tabs
+> Project was based on creating a restaurant page using javascript to generate the tabs.
 > Each tab has a different content. Such as Home page, Contact page and Menu page.
 > Also using a single div element inside the HTML to append all the content.
 
