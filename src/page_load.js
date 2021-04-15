@@ -24,7 +24,7 @@ const pageLoad = (() => {
   secondChild.textContent = "A great restaurant is one that just makes you feel like you're not sure whether you went out or you came home and confuses you. If it can do both of those things at the same time, you're hooked.";
 
   const thirdChild = document.createElement('div');
-  thirdChild.id = 'para-container';
+  thirdChild.id = 'btn-container';
   thirdChild.className = 'book w-75 mx-auto mt-5 d-flex justify-content-center';
   thirdChild.innerHTML = `
   <div class = 'd-flex flex-column'>

@@ -21,6 +21,7 @@ const home = document.getElementById('homee');
 const menu = document.getElementById('menuu');
 const heading = document.getElementById('heading-container');
 const para = document.getElementById('para-container');
+const btun = document.getElementById('btn-container');
 cont('bg-col-container');
 const contactHeading = document.getElementById('contact-container');
 const contactMedia = document.getElementById('media-container');
@@ -50,6 +51,7 @@ function hideHomeContact () {
   if (! heading.classList.contains('dis-none')) {
     heading.classList.add('dis-none');
     para.classList.add('dis-none');
+    btun.classList.add('dis-none');
   }
 }
 
@@ -66,6 +68,7 @@ function hideMenu() {
 contact.addEventListener('click', (e) => {
   heading.classList.add('dis-none');
   para.classList.add('dis-none');
+  btun.classList.add('dis-none');
   displayContact();
   hideMenu();
 });
@@ -73,6 +76,7 @@ contact.addEventListener('click', (e) => {
 home.addEventListener('click', (e) => {
     heading.classList.remove('dis-none');
     para.classList.remove('dis-none');
+    btun.classList.remove('dis-none');
     hideContact();
     hideMenu();
 });
