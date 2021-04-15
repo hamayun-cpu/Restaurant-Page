@@ -1,4 +1,4 @@
-export default function createMenu(content) {
+const createMenu = (content) => {
   const container = document.getElementById(content);
   const menuItemContainer = document.createElement('div');
   menuItemContainer.id = 'menu-container';
@@ -213,4 +213,6 @@ export default function createMenu(content) {
   menuItemContainer.appendChild(row3);
   menuItemContainer.appendChild(row4);
   container.appendChild(menuItemContainer);
-}
+};
+
+export default createMenu;
