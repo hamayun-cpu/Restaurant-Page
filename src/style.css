@@ -1,0 +1,92 @@
+.vh-100 {
+  height: 100vh;
+}
+
+.bg-pic {
+  background-image: url("/src/img/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.back-color {
+  background-color: rgba(34, 29, 68, 0.486);
+}
+
+.heading {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.para {
+  color: white;
+  font-size: 23px;
+  font-family: "Inconsolata", monospace;
+}
+
+.pt-8 {
+  padding-top: 90px;
+}
+
+.dis-none {
+  display: none !important;
+}
+
+.col-white {
+  color: white;
+}
+
+.mt-10p {
+  margin-top: 10px;
+}
+
+.h-250p {
+  height: 250px;
+}
+
+.menu-bg-pic {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bac-pos-center {
+  background-position: center center;
+}
+
+.bg-color-menu {
+  transition: background-color 1s;
+}
+
+.bg-color-menu:hover {
+  background-color: rgba(20, 15, 54, 0.61);
+  display: flex;
+  flex-direction: column;
+}
+
+.lrg-font {
+  font-size: 40px;
+  white-space: nowrap;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.med-font {
+  font-size: 25px;
+}
+
+.book {
+  font-family: "Inconsolata", monospace;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.styl-font {
+  font-family: "Dancing Script", cursive;
+}
